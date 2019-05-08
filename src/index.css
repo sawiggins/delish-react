@@ -1,0 +1,123 @@
+html, body, main {
+  margin: 0;
+  padding: 0;
+  font-family: Lato, sans-serif;
+  box-sizing: border-box;
+  background: #84D7DF;
+}
+
+.app {
+  background: #84D7DF;
+  position: relative;
+}
+
+.menu {
+  width: 75vw;
+}
+
+.menu h2 {
+  background-color: #EA686B;
+  color: #fff;
+  font-size: 2em;
+  padding: 4vh 2vw 4vh 6vw;
+  max-width: 50vw;
+}
+
+.flavorCardList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.flavorCard {
+  background: #fff;
+  width: 25vw;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  border: #EA686B solid 5px;
+}
+
+.flavorCardText {
+  padding: 4vh 2vw;
+}
+
+.flavorCard h3 {
+  color: #EA686B;
+  margin: 3vh 0;
+  font-size: 175%;
+  display: inline;
+}
+
+.flavorCard p {
+  display: inline;
+  float: right;
+  color: #EA686B;
+}
+
+.flavorCard img {
+  max-width: 100%;
+}
+
+.flavorCard button {
+  background-color: pink;
+  border: none;
+  padding: 2vh 2vw;
+  margin: 2vh;
+  font-weight: bold;
+  font-size: 85%;
+}
+
+.flavorCard button:hover {
+  background-color: #EA686B;
+}
+
+.order {
+  background: #CFF3F7;
+  width: 20vw;
+  border: 5px #fff solid;
+  /* flex-grow: 1; */
+  padding: 0 2vw 2vh 2vw;
+  margin: 4vh 2vw 4vh 2vw;
+  position: fixed;
+  top: 0;
+  right: 0;
+  
+}
+
+.order h2 {
+  font-size: 2em;
+  color: #EA686B;
+  text-align: center;
+}
+
+.order ul {
+  list-style: none;
+  padding: 0;
+}
+
+.order li {
+  color: #EA686B;
+  clear: both;
+}
+.orderFlavor {
+  float: left;
+  text-align: left;
+  border: 1px blue solid;
+}
+
+.orderPrice {
+  float: right;
+  text-align: right;
+  border: 1px blue solid;
+}
+
+.total {
+  color: #EA686B;
+  font-size: 115%;
+  display: block;
+  width: 100%;
+  clear: both;
+  text-align: right;
+  margin-top: 2em;
+}
